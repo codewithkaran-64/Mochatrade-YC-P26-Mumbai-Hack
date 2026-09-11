@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-base-950 text-ink-100 antialiased;
+    font-feature-settings: "tnum" 1;
+  }
+
+  :focus-visible {
+    outline: 2px solid theme("colors.accent.400");
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-base-700 bg-base-850 shadow-card;
+  }
+
+  .card-header {
+    @apply flex items-center justify-between gap-3 border-b border-base-700 px-5 py-4;
+  }
+
+  .input {
+    @apply w-full rounded-lg border border-base-600 bg-base-900 px-3 py-2 text-sm text-ink-100
+      placeholder:text-ink-500 focus:border-accent-500 focus:outline-none transition-colors;
+  }
+
+  .input-error {
+    @apply border-risk-veryhigh/70 focus:border-risk-veryhigh;
+  }
+
+  .label {
+    @apply mb-1.5 block text-xs font-medium uppercase tracking-wide text-ink-400;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-4 py-2.5 text-sm font-semibold
+      text-white transition-all hover:bg-accent-600 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-base-600 bg-base-800 px-4 py-2.5
+      text-sm font-semibold text-ink-100 transition-all hover:border-base-500 hover:bg-base-700 active:scale-[0.98]
+      disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-ink-400
+      transition-colors hover:bg-base-800 hover:text-ink-100;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+}
+
+/* Custom scrollbar for horizontally-scrollable tables on mobile */
+.scroll-thin::-webkit-scrollbar {
+  height: 6px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background-color: theme("colors.base.600");
+  border-radius: 3px;
+}

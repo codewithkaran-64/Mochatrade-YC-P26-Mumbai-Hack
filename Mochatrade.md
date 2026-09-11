@@ -10,7 +10,7 @@
 
 **Mochatrade** is a next-generation trading platform that gives global (non-US) retail traders , starting with India , seamless, leveraged access to US equities, indices, commodities, and select pre-IPO names through **perpetual futures**.
 
-It solves a long-standing structural gap: the world’s deepest and most liquid equity market has historically been closed off to sophisticated retail traders outside the United States by friction in brokerage accounts, cross-border remittances, leverage restrictions, settlement delays, and tax complexity.
+It solves a long-standing structural gap: the world's deepest and most liquid equity market has historically been closed off to sophisticated retail traders outside the United States by friction in brokerage accounts, cross-border remittances, leverage restrictions, settlement delays, and tax complexity.
 
 Mochatrade removes those barriers. Traders fund in local currency (UPI in India), go long or short with leverage, trade 24/7, and settle back into rupees — without ever opening a US brokerage account or triggering traditional LRS/FEMA remittance processes at the user level.
 
@@ -35,9 +35,11 @@ Mochatrade was built to close this gap with a clean, compliant, INR-native produ
 ## Product
 
 ### What You Trade
+
 Contracts that track the price of US stocks, indices, and commodities — structured as perpetual futures (no expiry). You never hold the underlying share. You trade the price, long or short, with margin posted in rupees.
 
 ### Key Capabilities
+
 - **50+ US stock perps** including NVDA, TSLA, AAPL, META, GOOGL, AMZN, MSFT, and more
 - **Indices, commodities** (gold, silver, oil), crypto, and select pre-IPO names
 - **Up to 20× leverage** (higher figures have been referenced in early materials; current product messaging emphasizes professional-grade leverage)
@@ -49,6 +51,7 @@ Contracts that track the price of US stocks, indices, and commodities — struct
 - **In-app tax reporting** designed for Indian residents
 
 ### How It Works (High Level)
+
 1. **Tokenized / price-tracking exposure** to US equities and other assets
 2. **Perpetual futures** for leverage and continuous trading
 3. **Regulated INR rails** (FIU-registered partners) for seamless on-ramp and off-ramp
@@ -69,10 +72,9 @@ Mochatrade is registered with the **Financial Intelligence Unit – India (FIU-I
 
 Always consult a qualified tax advisor for personal circumstances.
 
-
 ## Funding & Backing
 
-Mochatrade is part of **Y Combinator’s Spring 2026 batch** and has raised pre-seed capital from a strong set of early-stage and crypto-native investors.
+Mochatrade is part of **Y Combinator's Spring 2026 batch** and has raised pre-seed capital from a strong set of early-stage and crypto-native investors.
 
 ### Backed by the funds that back founders early
 
@@ -94,7 +96,7 @@ Mochatrade is part of **Y Combinator’s Spring 2026 batch** and has raised pre-
 
 Mochatrade has been covered by leading business and technology publications:
 
-- [Forbes — What Y Combinator’s Latest Batch Reveals About the Future](https://www.forbes.com/sites/dariashunina/2026/06/04/what-y-combinators-latest-batch-reveals-about-the-future/)
+- [Forbes — What Y Combinator's Latest Batch Reveals About the Future](https://www.forbes.com/sites/dariashunina/2026/06/04/what-y-combinators-latest-batch-reveals-about-the-future/)
 - [The Economic Times — MochaTrade raises funding to offer global access to US perpetual futures](https://economictimes.indiatimes.com/markets/stocks/news/mochatrade-raises-funding-to-offer-global-access-to-us-perpetual-futures/articleshow/130860045.cms)
 - [Moneycontrol — MochaTrade raises pre-seed funding from Y Combinator, Pioneer Fund](https://www.moneycontrol.com/news/business/markets/mochatrade-raises-pre-seed-funding-from-y-combinator-pioneer-fund-13910317.html)
 - [ET Entrepreneur — MochaTrade secures pre-seed funding from Y Combinator to transform perpetual trading](https://entrepreneur.economictimes.indiatimes.com/news/funding/mochatrade-secures-pre-seed-funding-from-y-combinator-to-transform-perpetual-trading/130855566)
@@ -108,9 +110,10 @@ The Mochatrade team publishes regular deep dives and weekly market notes focused
 **[→ Visit the Mochatrade Blog](https://mochatrade.com/blog)**
 
 Selected recent pieces:
+
 - Salesforce Was Left for Dead by the AI Trade
 - Stanley Druckenmiller Built a Framework for Finding the Trade of a Decade
-- Nvidia’s $105 Billion Ohio Deal Has a Loop Most People Missed
+- Nvidia's $105 Billion Ohio Deal Has a Loop Most People Missed
 - Nuclear Is Becoming the Next Great US Market Trade
 - Mocha Markets Weekly (ongoing series)
 
@@ -133,9 +136,7 @@ The company is starting with India and plans expansion into other high-growth ma
 - **Blog**: [mochatrade.com/blog](https://mochatrade.com/blog)
 - **YC Profile**: [ycombinator.com/companies/mochatrade](https://www.ycombinator.com/companies/mochatrade)
 
-
-
-**Mochatrade** — Trade US stocks from India, in rupees.  
-Built by traders, for traders.  
-Backed by Y Combinator.  
+**Mochatrade** — Trade US stocks from India, in rupees.
+Built by traders, for traders.
+Backed by Y Combinator.
 The market is open. Get in early.
